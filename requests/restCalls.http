@@ -1,0 +1,19 @@
+@baseUrl = http://localhost:8080/api/persons
+
+
+### get data
+GET {{baseUrl}}
+
+### post data
+POST {{baseUrl}}
+Content-Type: application/json
+
+{
+    "name":"mohit",
+    "number":"2345"
+}
+
+
+### delete data
+DELETE {{baseUrl}}/1
+
