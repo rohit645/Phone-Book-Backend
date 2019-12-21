@@ -7,6 +7,7 @@ const cors = require('cors')
 
 app.use(bodyParser.json())
 app.use(cors())
+app.use(express.static('build'))
 
 const TOKEN = ":method :url :status :res[content-length] - :response-time ms :contact"
 
