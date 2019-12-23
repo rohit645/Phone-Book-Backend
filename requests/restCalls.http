@@ -1,4 +1,4 @@
-@baseUrl = http://localhost:8080/api/persons
+@baseUrl = http://localhost:3001/persons
 
 
 ### get data
@@ -10,10 +10,10 @@ Content-Type: application/json
 
 {
     "name":"mohit",
-    "number":"2345"
+    "phoneNumber":"2345"
 }
 
 
 ### delete data
-DELETE {{baseUrl}}/1
+DELETE {{baseUrl}}/5e0125de43ca9f0c4725ff99
 
